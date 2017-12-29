@@ -1,7 +1,7 @@
 # 曼码科技相关文档
 
 ## Vue 后台
-- [目录](/VueAdmin/Guide/README.md)
+- [目录](/VueAdmin/README.md)
   - [项目文件结构](/VueAdmin/Guide/fileStructure.md)
 
 ### vue后台自定义组件使用说明
