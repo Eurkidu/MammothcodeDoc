@@ -69,9 +69,12 @@ var simplePay = new McPopPay({
 })
 ```
 
+---
+
 #### 微信支付（app端）
 
 `WeChatAppPay` 微信支付模块开关
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 WeChatAppPay | 是否有微信支付 | Bool | - | true
@@ -79,6 +82,7 @@ WeChatAppPay | 是否有微信支付 | Bool | - | true
 `WeChatAppPayConfig` 微信支付配置项
 
 配置项参数
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 api | 是否Api请求 | Bool | - | true
@@ -114,9 +118,12 @@ var simplePay = new McPopPay({
 })
 ```
 
+---
+
 #### 支付宝支付
 
 `AliPay` 支付宝支付模块开关
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 AliPay | 是否有支付宝支付 | Bool | - | true
@@ -124,6 +131,7 @@ AliPay | 是否有支付宝支付 | Bool | - | true
 `AliPayConfig` 支付宝支付配置项
 
 配置项参数
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 url | 请求地址 | String | - | null
@@ -153,6 +161,7 @@ var simplePay = new McPopPay({
 #### 账户支付（余额支付）
 
 `AccountPay` 账户支付模块开关
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 AccountPay | 是否有账户支付 | Bool | - | true
@@ -160,6 +169,7 @@ AccountPay | 是否有账户支付 | Bool | - | true
 `AccountPayConfig` 账户支付配置项
 
 配置项参数
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 api | 是否Api请求 | Bool | - | true
@@ -196,9 +206,12 @@ var simplePay = new McPopPay({
 })
 ```
 
+---
+
 #### 其他支付
 
 `OtherPay` 其他支付模块开关
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 OtherPay | 是否有其他支付 | Bool | - | false
@@ -208,6 +221,7 @@ OtherPay | 是否有其他支付 | Bool | - | false
 配置项为数组
 
 每一项可选参数
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 text | 按钮文本 | String | - | 其他支付
