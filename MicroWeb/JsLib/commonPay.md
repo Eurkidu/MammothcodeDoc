@@ -27,6 +27,7 @@
 #### 微信支付（网页端）
 
 `WeChatPay` 微信支付模块开关
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 WeChatPay | 是否有微信支付 | Bool | - | true
@@ -34,6 +35,7 @@ WeChatPay | 是否有微信支付 | Bool | - | true
 `WeChatPayConfig` 微信支付配置项
 
 配置项参数
+
 参数 | 说明 | 类型 | 可选值 | 默认值
 -|-|-|-|-|-
 api | 是否Api请求 | Bool | - | true
